@@ -6,8 +6,8 @@ import 'rxjs/add/operator/map';
 export class GithubService {
 
   private username: string;
-  private client_id = '4323d37614d6c6878dd2';
-  private client_secret = 'cf54c39d952b143065086d4de8ba16f1536fedeb';
+  private client_id = 'xxxxxxxxxxxxxxxxxxxxxxxx';
+  private client_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
   constructor(private http: Http) {
     console.log('Github ready...');
